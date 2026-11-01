@@ -12,7 +12,7 @@ app/api/               /api/cart, /api/orders (public, rate limited) and /api/ad
 lib/                   i18n, database access, admin helpers and admin texts (lib/admin-i18n.ts), Supabase clients
 components/            shared UI pieces (AdminBits, AdminFlash, ProductForm …)
 proxy.ts               language redirect, per-request script nonce (CSP), admin session gate
-tests/                 db (98), web/http (32), browser (16), admin browser (39), traceability of the 146 legacy tests
+tests/                 db (98), web/http (32), browser (16), admin browser (41), traceability of the 146 legacy tests
 docs/                  ADMIN-GUIDE, SUPABASE-SETUP, PHASE3-REPORT, SECURITY-MODEL, GO-LIVE-CHECKLIST, TEST-TRACEABILITY, older reports
 db/support/            test-only stand-in for Supabase's auth/storage schemas (never run on a real project)
 ```
